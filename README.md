@@ -57,7 +57,6 @@ pip install networkx matplotlib deap Pillow numpy
   - **Búsqueda Local**: Implementado en `solve_local_search` utilizando el algoritmo 2-opt.
   - **Algoritmo Genético**: Implementado en `solve_genetic` usando la librería `deap`.
   - **Árbol de Expansión Mínima (MST)**: Implementado en `solve_mst` usando `networkx`.
-  - **Held-Karp**: Implementado en `solve_held_karp` para soluciones exactas (limitadas a 20 ciudades).
 
 - **Animación de la Solución**:  
   La función `animate_solution` se encarga de visualizar las rutas generadas mediante animaciones en **matplotlib**.
